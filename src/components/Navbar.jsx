@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
 
 {/** hamburger menu */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        <div onClick={handleClick} className='md:hidden z-10 order-last'>
           { !nav ? <FaBars/> : <FaTimes/>}
         </div>
 
@@ -34,11 +34,11 @@ const Navbar = () => {
           <li className='py-6 text-4xl'>Contact</li>
         </ul>
 
-        <ul className='hidden md:flex flex-row justify-center items-center'>
-          <li className='py-6 text-4xl'><IoLogoFacebook/></li>
-          <li className='py-6 text-2xl'><IoLogoInstagram/></li>
-          <li className='py-6 text-2xl'><IoLogoTwitter/></li>
-          <li className='py-6 text-2xl'><IoLogoLinkedin/></li>
+        <ul className='flex flex-row justify-center items-center'>
+          <li className='py-6 text-4xl md:text-2xl'><IoLogoFacebook/></li>
+          <li className='py-6 text-4xl md:text-2xl'><IoLogoInstagram/></li>
+          <li className='py-6 text-4xl md:text-2xl'><IoLogoTwitter/></li>
+          <li className='py-6 text-4xl md:text-2xl'><IoLogoLinkedin/></li>
         </ul>
     </div>
   )
