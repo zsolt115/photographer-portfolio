@@ -15,9 +15,9 @@ const Navbar = () => {
         </div>
 
         <ul className='hidden md:flex'>
-          <li>Home</li>
+          <li> <a href="/"> Home </a> </li>
           <li>About</li>
-          <li>Gallery</li>
+          <li> <a href="/gallery"> Gallery </a> </li>
           <li>Contact</li>
         </ul>
 
@@ -28,9 +28,9 @@ const Navbar = () => {
 
 {/** mobile menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl'>Home</li>
+          <li className='py-6 text-4xl'> <a href="/"> Home </a> </li>
           <li className='py-6 text-4xl'>About</li>
-          <li className='py-6 text-4xl'>Gallery</li>
+          <li className='py-6 text-4xl'> <a href="/gallery"> Gallery </a> </li>
           <li className='py-6 text-4xl'>Contact</li>
         </ul>
 
