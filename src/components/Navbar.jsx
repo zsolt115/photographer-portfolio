@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-white'>
         <div className='flex flex-row justify-center items-center'>
-          <TiCameraOutline className='w-[40px] h-[40px] text-blue-400'/>
-          <h1 className='text-white text-4xl px-4'>PhotoFolio</h1>
+          <TiCameraOutline className='w-[40px] h-[40px] text-green-300'/>
+          <h1 className='text-white text-4xl px-4'>R</h1>
         </div>
 
         <ul className='hidden md:flex'>
@@ -35,10 +35,9 @@ const Navbar = () => {
         </ul>
 
         <ul className='flex flex-row justify-center items-center'>
+          <li className='py-6 text-4xl md:text-2xl'>+04545446411</li>
           <li className='py-6 text-4xl md:text-2xl'><IoLogoFacebook/></li>
           <li className='py-6 text-4xl md:text-2xl'><IoLogoInstagram/></li>
-          <li className='py-6 text-4xl md:text-2xl'><IoLogoTwitter/></li>
-          <li className='py-6 text-4xl md:text-2xl'><IoLogoLinkedin/></li>
         </ul>
     </div>
   )

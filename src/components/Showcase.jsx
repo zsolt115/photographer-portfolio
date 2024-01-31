@@ -59,7 +59,7 @@ const Showcase = () => {
             </div>
 
           </div>
-          <div className='flex top-4 justify-center py-2 text-blue-400'>
+          <div className='flex top-4 justify-center py-2 text-green-300'>
             {slides.map((slide, slideIndex) => (
               <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className='text-2xl cursor-pointer'>
                 <RxDotFilled/>
